@@ -1,0 +1,19 @@
+	<script type="text/javascript">
+		require(['bootstrap']);
+		$('.js-clip').each(function(){
+			util.clip(this, $(this).attr('data-url'));
+		});
+	</script>
+	<div class="container-fluid footer" role="footer">
+		<div class="page-header"></div>
+		<span class="pull-left">
+			<p>{if empty($_W['setting']['copyright']['footerleft'])}Powered by <a href="http://yqhls.cn"><b>月琴</b></a> v{MWX_VERSION} &copy; 2014-2015 <a href="http://yqhls.cn">yqhls.cn</a>{else}{$_W['setting']['copyright']['footerleft']}{/if}</p>
+		</span>
+		<span class="pull-right">
+			<p>{if empty($_W['setting']['copyright']['footerright'])}<a href="http://yqhls.cn">关于三思云</a>&nbsp;&nbsp;<a href="http://yqhls.cn">三思云论坛</a>&nbsp;&nbsp;<a href="http://yqhls.cn">联系客服</a>{else}{$_W['setting']['copyright']['footerright']}{/if}</p>
+		</span>
+	</div>
+    {if !empty($_W['setting']['copyright']['statcode'])}{$_W['setting']['copyright']['statcode']}{/if}
+     </section>
+</body>
+</html>

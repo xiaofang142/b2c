@@ -1,0 +1,69 @@
+.mwx-clear{clear:both}
+li{list-style:none}
+body{background-color:#f9f9f9}
+.mwx-bg-dark{background-color:#2e3e4e}
+.mwx-header{position:fixed;top:0;z-index:9999;padding-left:15px;width:100%;min-width:8in;border-bottom:1px solid #162636;color:#2e3e4e}
+.mwx-header,.mwx-header a{display:block;height:54px}
+.mwx-header a{color:#adbece;text-decoration:none;line-height:54px}
+.mwx-header>.mwx-header-logo{float:left}
+.mwx-header>.mwx-header-nva{float:right}
+.mwx-header-nva>li{float:left}
+.mwx-header-nva>li>a{padding:0 15px;border-right:1px solid #2c3b4a;border-left:1px solid #394857;text-decoration:none}
+.mwx-header-nva>li:first-child>a{border-left:0 none}
+.mwx-header-nva>li:last-child>a{border-right:0 none}
+.mwx-header-nva>li>a:focus,.mwx-header-nva>li>a:hover{background-color:#25313e;color:#fff}
+.mwx-header-dropdown-btn{position:relative}
+.mwx-header-dropdown-btn>a>*{float:left}
+.mwx-header-dropdown-btn>a>p{padding:0 5px}
+.mwx-header-dropdown-btn>a>.icon-iconfont-user{font-size:1.2em;line-height:54px}
+.mwx-header-dropdown-btn>a>.fa-caret-down{line-height:54px}
+.mwx-header-dropdown{position:relative;margin-left:20px;padding:10px 0;width:10pc;border-radius:2px;background-color:#fff;box-shadow:0 0 5px rgba(0,0,0,.2);display: none;}
+.mwx-header-dropdown:before{position:absolute;top:-10px;left:50%;margin-left:-15px;width:0;height:0;border-right:15px solid transparent;border-bottom:15px solid #fff;border-left:15px solid transparent;content:''}
+.mwx-header-dropdown>li:active>a,.mwx-header-dropdown>li:focus>a,.mwx-header-dropdown>li:hover>a{background-color:#eee;color:#717171}
+.mwx-header-dropdown>li:last-child{margin-top:10px;border-top:1px solid #e5e5e5}
+.mwx-header-dropdown>li:last-child>a{margin-top:10px}
+.mwx-header-dropdown>li>a{padding:10px 15px;height:auto;color:#333;text-decoration:none;line-height:1em}
+.mwx-header-dropdown>li>a>span{position:relative;top:2px;font-size:1.2em}
+
+
+.mwx-header-dropssy{position:relative;margin-left:20px;padding:10px 0;width:10pc;border-radius:2px;background-color:#fff;box-shadow:0 0 5px rgba(0,0,0,.2);display: none;}
+.mwx-header-dropssy:before{position:absolute;top:-10px;left:50%;margin-left:-15px;width:0;height:0;border-right:15px solid transparent;border-bottom:15px solid #fff;border-left:15px solid transparent;content:''}
+.mwx-header-dropssy>li:active>a,.mwx-header-dropssy>li:focus>a,.mwx-header-dropssy>li:hover>a{background-color:#eee;color:#717171}
+.mwx-header-dropssy>li:last-child{margin-top:10px;border-top:1px solid #e5e5e5}
+.mwx-header-dropssy>li:last-child>a{margin-top:10px}
+.mwx-header-dropssy>li>a{padding:10px 15px;height:auto;color:#333;text-decoration:none;line-height:1em}
+.mwx-header-dropssy>li>a>span{position:relative;top:2px;font-size:1.2em}
+
+
+
+
+.mwx-nav-box{position:fixed;left:0;z-index:0;width:90px;height:100%}
+.mwx-nav{margin-top:55px}
+nav.mwx-nav-box>.nav>li{height:88px}
+.nav-active>a{border-left:1px solid #13c4a5}
+nav.mwx-nav-box>.nav>li>a{padding:15px;height:100%;border-top:1px solid hsla(0,0%,100%,.05);border-bottom:1px solid rgba(0,0,0,.05);color:#adbece;text-align:center;text-decoration:none}
+nav.mwx-nav-box>.nav>li.nav-active>a,.nav>li:active>a,.nav>li:focus>a,.nav>li:hover>a,.nav>li:visited>a{background-color:rgba(0,0,0,.075);color:#FFF}
+.mwx-nav>li>a>i{font-size:2em}
+.mwx-nav>li>a>p{margin-top:8px}
+.mwx-content{padding-top:70px;padding-left:90px}
+.content-box{padding:15px 30px}
+.fa-caret-down{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(-90deg);transform: rotate(-90deg);
+}
+.caret-down-active{-webkit-transform: rotate(0deg);-moz-transform: rotate(0deg);-ms-transform: rotate(0deg);-o-transform: rotate(0deg);transform: rotate(0deg);
+}
+
+
+
+
+.position-img{position:absolute;top:-82px;left:11px}
+.panel-body{position:relative}
+.login-title{margin-bottom:15px;margin-bottom:30px;color:#007aff;text-align:center;font:22px 微软雅黑}
+.login .panel,.register .panel{padding:15px}
+.register .panel,.register .panel{padding:15px}
+.my-btn{display:block;padding:11px 20px;width:100%;border:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#3596eb;color:#fff;font-size:17.5px;font-family:\\5fae\8f6f\96c5\9ed1,\\5b8b\4f53,Helvetica Neue,Helvetica,Arial,sans-serif;line-height:20px;cursor:pointer}
+.heads{width:100%;height:47px;min-width:500px;background:#2d3a4c}
+.mylogo{overflow:hidden}
+.mylogo .line{margin:13px 17px 0;width:2px;height:25px;background:url(../images/line.jpg) 0 0 no-repeat}
+.mylogo span{float:left;display:block}
+.mylogo .mwx-header-dis{margin-top:13px;color:#fff;font-size:20px;font-family:"微软雅黑"}
+.mylogo a{float:left}

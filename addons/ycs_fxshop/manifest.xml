@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://yqhls.cn" versionCode="0.6,0.7">
+<application setting="false">
+		<name><![CDATA[云分销商城]]></name>
+		<identifie><![CDATA[ycs_fxshop]]></identifie>
+		<version><![CDATA[8.0]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[云分销商城(三级),多用户分权，淘宝商品一键转换，多种插件支持。]]></ability>
+		<description><![CDATA[云分销商城(三级)，多项信息模板，强大的自定义规格设置]]></description>
+		<author><![CDATA[MxWeixin Team]]></author>
+		<url><![CDATA[http://yqhls.cn]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+			<message type="text" />
+		</handles>
+		<rule embed="false" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="商城入口" do="shop" />
+			<entry title="订单入口" do="order" />
+			<entry title="购物车入口" do="cart" />
+			<entry title="我的收藏入口" do="favorite" />
+			<entry title="会员中心入口" do="member" />
+		</cover>
+		<menu>
+			<entry title="商城管理" do="shop" />
+			<entry title="会员管理" do="member" />
+			<entry title="订单管理" do="order" />
+		        <entry title="数据统计" do="statistics" />
+		        <entry title="插件中心" do="plugins" />
+			<entry title="系统设置" do="sysset" />
+		</menu>
+	</bindings>
+	<install><![CDATA[install.php]]></install>
+	<uninstall><![CDATA[uninstall.php]]></uninstall>
+	<upgrade><![CDATA[]]></upgrade>
+</manifest>

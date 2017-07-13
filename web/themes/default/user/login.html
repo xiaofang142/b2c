@@ -1,0 +1,129 @@
+{template 'common/header-base'}
+{if !empty($_W['setting']['copyright']['verifycode'])}
+<style>
+	@media screen and (max-width:767px){.login .panel.panel-default{width:360px; height:400px;border-radius:10px }}
+	@media screen and (min-width:768px){.login .panel.panel-default{width:360px; height:400px;border-radius:10px}}
+	@media screen and (min-width:1200px){.login .panel.panel-default{width:360px; height:400px; border-radius:10px}}
+	.form-group label:nth-of-type(2){float:right}
+	.form-group label:nth-of-type(1){margin-left:10px}
+	.form-group label{font-size:15px}
+</style>
+{else}
+<style>
+	@media screen and (max-width:767px){.login .panel.panel-default{width:360px; height:360px;border-radius:10px }}
+	@media screen and (min-width:768px){.login .panel.panel-default{width:360px; height:360px;border-radius:10px}}
+	@media screen and (min-width:1200px){.login .panel.panel-default{width:360px; height:360px; border-radius:10px}}
+	.form-group label:nth-of-type(2){float:right}
+	.form-group label:nth-of-type(1){margin-left:10px}
+	.form-group label{font-size:15px}
+</style>
+{/if}
+<div class="login">
+	<div class="mwx-header heads">
+        <div class="mylogo">
+            <a href="{$_W['siteroot']}">
+                <img src="/assets/mwx_v5/images/logo.png" alt="V5WORK">
+            </a>
+            <span class="line"></span>
+            <span class="mwx-header-dis">国内最完善的微信公众号开发管理系统。</span>
+        </div>
+    </div>
+	<div class="mylogo">
+		<a href="./?refresh" {if !empty($_W['setting']['copyright']['flogo'])}style="background:url('/assets/mwx_v5/images/banner.jpg no-repeat;"{/if}></a>
+	</div>
+	<div class="clearfix" style="margin-bottom:5em;">
+		<div class="panel panel-default container">
+			<div class="panel-body">
+				<img class="position-img" src="/assets/mwx_v5/images/logo_2.png">
+				<div class="login-title">用户登录</div>
+				<form action="" method="post" role="form" id="form1" onsubmit="return formcheck();">
+					<div class="form-group input-group">
+						<span id="message" class="text-danger"></span>
+					</div>  
+					<div class="form-group input-group">
+						<div class="input-group-addon"><i class="fa fa-user"></i></div>
+						<input name="username" type="text" class="form-control input-lg" placeholder="请输入用户名登录">
+					</div>
+					<div class="form-group input-group">
+						<div class="input-group-addon"><i class="fa fa-unlock-alt"></i></div>
+						<input name="password" type="password" class="form-control input-lg" placeholder="请输入登录密码">
+					</div>
+					{if !empty($_W['setting']['copyright']['verifycode'])}
+					<div class="form-group input-group">
+						<div class="input-group-addon"><i class="fa fa-info"></i></div>
+						<input name="verify" type="text" class="form-control input-lg" style="width:100px;" placeholder="验证码">
+						<a href="javascript:;" id="toggle" style="text-decoration: none"><img id="imgverify" src="{php echo url('utility/code')}" style=" width:100px; height:46px;" title="点击图片更换验证码"/> 点击更换</a>
+					</div>
+					{/if}
+					<div class="form-group">
+						<label class="checkbox-inline input-lg">
+							<input type="checkbox" value="true" name="rember"> 记住用户名
+						</label>
+						{if !$_W['siteclose']}<label class="checkbox-inline input-lg">
+							 <a href="{url 'user/register'}" >注册</a>
+						</label>{/if}
+						<div class="">
+							<input type="submit" id="submit" name="submit" value="登录" class="btn btn-primary btn-lg my-btn" />
+							<input name="token" value="{$_W['token']}" type="hidden" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="center-block footer" role="footer">
+		<div class="text-center">
+			{if empty($_W['setting']['copyright']['footerleft'])}Powered by <a href="http://yqhls.cn"><b>月琴</b></a>  &copy; 2014-2015 <a href="http://yqhls.cn">weixin.mx</a>{else}{$_W['setting']['copyright']['footerleft']}{/if}
+		</div>
+	</div>
+</div>
+
+<script>
+function formcheck() {
+	if($('#remember:checked').length == 1) {
+		cookie.set('remember-username', $(':text[name="username"]').val());
+	} else {
+		cookie.del('remember-username');
+	}
+	return true;
+}
+
+var h = document.documentElement.clientHeight;
+$(".login").css('min-height',h);
+$('#toggle').click(function() {
+	$('#imgverify').prop('src', '{php echo url('utility/code')}r='+Math.round(new Date().getTime()));
+	return false;
+});
+{if !empty($_W['setting']['copyright']['verifycode'])}
+
+	$('#form1').submit(function() {
+
+		var verify = $(':text[name="verify"]').val();
+
+		if (verify == '') {
+
+			alert('请填写验证码');
+
+			return false;
+
+		}
+
+	});
+
+{/if}
+
+</script>
+
+
+<script>
+ require(['jquery'],function($){
+ 	var h = document.documentElement.clientHeight;
+	$(".login").css('min-height',h);
+	$(".panel").css('margin-top',h/2-360);
+	$(window).resize(function (){
+	$(".panel").css('margin-top',h/2-360);
+	});
+ });
+</script>
+</body>
+</html>

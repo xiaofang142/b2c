@@ -1,0 +1,73 @@
+a:5:{s:2:"id";s:1:"4";s:7:"uniacid";s:1:"5";s:4:"sets";s:946:"a:3:{s:4:"shop";a:13:{s:4:"name";s:12:"";s:3:"img";s:62:"http://files.showybling.com/rD05ND5xGj5TGZQwRdGbzE3qnnr1XR.png";s:4:"logo";s:62:"http://files.showybling.com/oeEzNerrapHMhnHNHNUaSgaaacHNHc.jpg";s:7:"signimg";s:62:"http://files.showybling.com/JXKkI0dIXyDd8DD8KPIZQKpYD5dx2K.png";s:5:"style";s:4:"line";s:8:"catlevel";s:1:"2";s:7:"catshow";i:0;s:9:"catadvimg";s:0:"";s:9:"catadvurl";s:0:"";s:2:"qq";s:0:"";s:7:"address";s:0:"";s:5:"phone";s:12:"028-62505466";s:11:"description";s:0:"";}s:5:"trade";a:10:{s:7:"receive";s:0:"";s:10:"refunddays";s:0:"";s:13:"refundcontent";s:0:"";s:11:"receivetime";s:0:"";s:13:"closerecharge";s:1:"1";s:8:"withdraw";s:1:"0";s:13:"withdrawmoney";s:0:"";s:5:"money";s:0:"";s:6:"credit";s:0:"";s:12:"shareaddress";s:1:"0";}s:3:"pay";a:7:{s:6:"weixin";s:1:"1";s:11:"weixin_cert";s:0:"";s:10:"weixin_key";s:0:"";s:11:"weixin_root";s:0:"";s:6:"alipay";s:1:"0";s:6:"credit";s:1:"0";s:4:"cash";s:1:"0";}}";s:7:"plugins";s:1647:"a:2:{s:5:"qiniu";a:1:{s:4:"user";a:5:{s:6:"upload";s:1:"1";s:10:"access_key";s:40:"qgwMCR48gSOZa_Volniv2tX3EXuF8ovqvbyQ6KxM";s:10:"secret_key";s:40:"fVLhBkpY2-dqyIQ0yNziE1uQcLu3Nt0FYPL_bGVL";s:6:"bucket";s:14:"showybling-com";s:3:"url";s:20:"files.showybling.com";}}s:10:"commission";a:23:{s:5:"texts";a:21:{s:5:"agent";s:9:"经销商";s:4:"shop";s:6:"小店";s:6:"myshop";s:12:"我的小店";s:6:"center";s:12:"经销中心";s:6:"become";s:15:"成为经销商";s:8:"withdraw";s:6:"提现";s:10:"commission";s:6:"佣金";s:11:"commission1";s:12:"经销佣金";s:16:"commission_total";s:12:"累计佣金";s:13:"commission_ok";s:15:"可提现佣金";s:16:"commission_apply";s:15:"已申请佣金";s:16:"commission_check";s:15:"待打款佣金";s:15:"commission_lock";s:15:"未结算佣金";s:14:"commission_pay";s:18:"成功提现佣金";s:17:"commission_detail";s:12:"佣金明细";s:5:"order";s:12:"分销订单";s:6:"myteam";s:12:"我的团队";s:2:"c1";s:6:"一级";s:2:"c2";s:6:"二级";s:2:"c3";s:6:"三级";s:10:"mycustomer";s:12:"我的下线";}s:5:"level";s:1:"0";s:11:"commission1";s:1:"0";s:11:"commission2";s:1:"0";s:11:"commission3";s:1:"0";s:7:"selfbuy";s:1:"0";s:12:"become_child";s:1:"0";s:6:"become";s:1:"1";s:17:"become_ordercount";s:0:"";s:17:"become_moneycount";s:0:"";s:12:"become_order";s:1:"1";s:10:"become_reg";s:1:"1";s:12:"become_check";s:1:"0";s:8:"withdraw";s:3:"500";s:13:"closetocredit";s:1:"1";s:10:"settledays";s:1:"7";s:8:"levelurl";s:0:"";s:12:"select_goods";s:1:"0";s:11:"closemyshop";s:1:"1";s:5:"style";s:7:"default";s:9:"levelname";s:12:"普通等级";s:5:"regbg";s:0:"";s:10:"buttontext";s:12:"我要经销";}}";s:3:"sec";s:4530:"a:3:{s:4:"cert";s:1598:"-----BEGIN CERTIFICATE-----
+MIIEbjCCA9egAwIBAgIDKcYuMA0GCSqGSIb3DQEBBQUAMIGKMQswCQYDVQQGEwJD
+TjESMBAGA1UECBMJR3Vhbmdkb25nMREwDwYDVQQHEwhTaGVuemhlbjEQMA4GA1UE
+ChMHVGVuY2VudDEMMAoGA1UECxMDV1hHMRMwEQYDVQQDEwpNbXBheW1jaENBMR8w
+HQYJKoZIhvcNAQkBFhBtbXBheW1jaEB0ZW5jZW50MB4XDTE2MDUzMDA1NTAxM1oX
+DTI2MDUyODA1NTAxM1owgZ4xCzAJBgNVBAYTAkNOMRIwEAYDVQQIEwlHdWFuZ2Rv
+bmcxETAPBgNVBAcTCFNoZW56aGVuMRAwDgYDVQQKEwdUZW5jZW50MQ4wDAYDVQQL
+EwVNTVBheTEzMDEGA1UEAxQq5oiQ6YO95LmQ55C05pif5YWJ5pWZ6IKy5ZKo6K+i
+5pyJ6ZmQ5YWs5Y+4MREwDwYDVQQEEwgxMTgzODczMjCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBALi6R+SLuCWogaX4iQXXBtedhcO+9moagKMKTp9ANX6F
+/xMW3kVxI1QkxJDBOW+bAJ3wOSYlW51YgthedLFO4yuQ5d16oIq9WKkG/1MU/yWM
+O/gI03SW5CjStO0NFjGAGai+Cpp+BktPdebtIi7ctw5bzbekmW7UsoCRz+pMjuvl
+AW/cMg8HEOXIcDrXtbXhKyXMlj97nTyfpS1m2DNZKwYkJUNrQjT4NzcrqYrzwgir
+jBCyXD8J4kTo/ew2+81eKMnpoWz6tmkJ5SbYBQLDhXk4JeOc7XP0lex7Av8gVC3t
+KuA3LzWDa/+XsucLoadT0JpVHZJKAVLknwv11kIvSFkCAwEAAaOCAUYwggFCMAkG
+A1UdEwQCMAAwLAYJYIZIAYb4QgENBB8WHSJDRVMtQ0EgR2VuZXJhdGUgQ2VydGlm
+aWNhdGUiMB0GA1UdDgQWBBRCLgfkM+2pzNGsvid3yf7n88oUoTCBvwYDVR0jBIG3
+MIG0gBQ+BSb2ImK0FVuIzWR+sNRip+WGdKGBkKSBjTCBijELMAkGA1UEBhMCQ04x
+EjAQBgNVBAgTCUd1YW5nZG9uZzERMA8GA1UEBxMIU2hlbnpoZW4xEDAOBgNVBAoT
+B1RlbmNlbnQxDDAKBgNVBAsTA1dYRzETMBEGA1UEAxMKTW1wYXltY2hDQTEfMB0G
+CSqGSIb3DQEJARYQbW1wYXltY2hAdGVuY2VudIIJALtUlyu8AOhXMA4GA1UdDwEB
+/wQEAwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDAjANBgkqhkiG9w0BAQUFAAOB
+gQCxFPps7phNIeFgvE1EV/gTaedahtjscCuIoVvePX4BYBvaYMBud4XeCMZRjMzO
+zVVd5z/emjR0yrRMQoxudmzyLgacj5uQVaiyS19q/fgHDAAsOAY46OUwC1PBHwhE
+SoaVgZuct30JBuHI5dY0j5D6G4BVuair7aEpVICeNX0XLQ==
+-----END CERTIFICATE-----
+";s:3:"key";s:1704:"-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC4ukfki7glqIGl
++IkF1wbXnYXDvvZqGoCjCk6fQDV+hf8TFt5FcSNUJMSQwTlvmwCd8DkmJVudWILY
+XnSxTuMrkOXdeqCKvVipBv9TFP8ljDv4CNN0luQo0rTtDRYxgBmovgqafgZLT3Xm
+7SIu3LcOW823pJlu1LKAkc/qTI7r5QFv3DIPBxDlyHA617W14SslzJY/e508n6Ut
+ZtgzWSsGJCVDa0I0+Dc3K6mK88IIq4wQslw/CeJE6P3sNvvNXijJ6aFs+rZpCeUm
+2AUCw4V5OCXjnO1z9JXsewL/IFQt7SrgNy81g2v/l7LnC6GnU9CaVR2SSgFS5J8L
+9dZCL0hZAgMBAAECggEAZcbcjWMdlkH9DICengUW0/0KEgtIoLTxYuLu5nbuAkO5
+gb77v67SFC4dztNm3cK82EfedNHoZAy8KpIAISChsQMoYpqJkWc5Tgd47UGIQhu9
+fq7+MiJgms1cua6YJ7W4bWwnU29T8HJbN1w3lTIt+U9DTIb3skSmBIhR0XlU1Upr
+fb/0VEjNpMyMRMq6qnePfG732BJiYspRujs0hzJvwlaPYWxqdVFyYHFcG1IE2aBB
+A8dbuwQu2vCzDUrXw7WNNvlubs8UEAFiNcITiv7aRzuhUGZb3AWhI40Tbg3ETmTg
+tobj27pgz8886dmlskimpB5usyVW2QanEiwDIMetwQKBgQDgT0jqmktpnlSE0zxx
+oPSHuq1HeHOM7+Qwazl/zpOCoX00wF4F3DcjdtMRzjGBPtGfp8w+sXKOeG1rWPpo
+tjuxp/foLFoZnCRaM8ix/a6T7tvuJAkQAsKLAg717XMdCFktRRUFpqb8FJc6xNdf
+cYN2XVd5NBSsIiWCTCZqCi79rQKBgQDS02nU02N4cknMXry0mmyqw3kBpZR7WReJ
+CBOMDCDIqR+f8W2EQPYcgEF513ySqhv7aWDbttOFYIzUTEvhki00/qy+YkA6HcRu
+gtb+TYXjzLxoqwT117t+BJxE6jEgX4IEY1p3lZ+EdoeRc2g+m+tYE9Vv1dPuvVd1
+SAbbJ6yy3QKBgHW6hz3Cv8PuetO//qBw5wb5/opdeOBG5FBZZrNi298bHRj7wh13
+SGVPr1ZQD4GTU/hk3HknL0YBhQRrjfo5czk6PI5aAOwiHJ5PQY3R5Lf2DO5/cVY6
+7JqC+REwkFNzl0KAWJk/r7Lsp7cLqzKH5ITSVt/hatwxi9hIWX0cXS99AoGATQWt
+6XIdKhje+0o1OOod/zkQ0Vgz6eh/n7GSqpyXsZeQFTf34dR11a3JvgDK4y5AsNYr
+67lch6LhcII7SrrDx1OvupJckp7jb9hfQWMDIllfEAJC+qoJNp3qlYbV0dTyxDWk
+DIJeV9+R4cK+9/iwv2nnlUcSeWs1M4TP9GsHPgUCgYBzniJ5RdgAduZx/0wPk64G
+qN4f7/Y3rGsuPxtzRfZntmHSnz9wlDfGCud+NonoTc/nfTb1oOb+HLYRY1WCTwqF
+m3BlL5LGUbn4psrhKB1ZcnMzx8cexyFnPB2bMws9STioyPtxt7JfWetsldVfQDAb
+lGO72CWpTITKIXf69T7+PA==
+-----END PRIVATE KEY-----
+";s:4:"root";s:1160:"-----BEGIN CERTIFICATE-----
+MIIDIDCCAomgAwIBAgIENd70zzANBgkqhkiG9w0BAQUFADBOMQswCQYDVQQGEwJV
+UzEQMA4GA1UEChMHRXF1aWZheDEtMCsGA1UECxMkRXF1aWZheCBTZWN1cmUgQ2Vy
+dGlmaWNhdGUgQXV0aG9yaXR5MB4XDTk4MDgyMjE2NDE1MVoXDTE4MDgyMjE2NDE1
+MVowTjELMAkGA1UEBhMCVVMxEDAOBgNVBAoTB0VxdWlmYXgxLTArBgNVBAsTJEVx
+dWlmYXggU2VjdXJlIENlcnRpZmljYXRlIEF1dGhvcml0eTCBnzANBgkqhkiG9w0B
+AQEFAAOBjQAwgYkCgYEAwV2xWGcIYu6gmi0fCG2RFGiYCh7+2gRvE4RiIcPRfM6f
+BeC4AfBONOziipUEZKzxa1NfBbPLZ4C/QgKO/t0BCezhABRP/PvwDN1Dulsr4R+A
+cJkVV5MW8Q+XarfCaCMczE1ZMKxRHjuvK9buY0V7xdlfUNLjUA86iOe/FP3gx7kC
+AwEAAaOCAQkwggEFMHAGA1UdHwRpMGcwZaBjoGGkXzBdMQswCQYDVQQGEwJVUzEQ
+MA4GA1UEChMHRXF1aWZheDEtMCsGA1UECxMkRXF1aWZheCBTZWN1cmUgQ2VydGlm
+aWNhdGUgQXV0aG9yaXR5MQ0wCwYDVQQDEwRDUkwxMBoGA1UdEAQTMBGBDzIwMTgw
+ODIyMTY0MTUxWjALBgNVHQ8EBAMCAQYwHwYDVR0jBBgwFoAUSOZo+SvSspXXR9gj
+IBBPM5iQn9QwHQYDVR0OBBYEFEjmaPkr0rKV10fYIyAQTzOYkJ/UMAwGA1UdEwQF
+MAMBAf8wGgYJKoZIhvZ9B0EABA0wCxsFVjMuMGMDAgbAMA0GCSqGSIb3DQEBBQUA
+A4GBAFjOKer89961zgK5F7WF0bnj4JXMJTENAKaSbn+2kmOeUJXRmm/kEd5jhW6Y
+7qj/WsjTVbJmcVfewCHrPSqnI0kBBIZCe/zuf6IWUrVnZ9NA2zsmWLIodz2uFHdh
+1voqZiegDfqnc1zqcPGUIWVEX/r87yloqaKHee9570+sB3c4
+-----END CERTIFICATE-----";}";}

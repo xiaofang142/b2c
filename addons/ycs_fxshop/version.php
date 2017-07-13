@@ -1,0 +1,1 @@
+<?php if(!defined('IN_IA')) {exit('Access Denied');}if(!defined('YCS_FXSHOP_VERSION')) {define('YCS_FXSHOP_VERSION', '1.9.8');}

@@ -1,0 +1,25 @@
+{template 'web/_header'}
+<div class='panel panel-default'>
+    <div class="panel-heading">
+        已安装插件
+    </div>
+    <div class='panel-body'>
+        {loop $plugins $plugin}
+        {ifpp $plugin['identity']}
+        <a class='btn btn-default' href="{php echo $this->createPluginWebUrl($plugin['identity'])}" title="{$plugin['name']}">
+            <i class="fa fa-external-link-square fa-2x"></i>
+            <br/>
+            <span>{$plugin['name']}</span>
+        </a>
+        {/if}
+        {/loop}
+    </div>
+    {if $_W['isfounder']}
+    <div class='panel-footer'>
+        <a href='javascript:;' > >>查找更多插件</a>
+    </div>
+    {/if}
+</div>
+
+
+{template 'web/_footer'}
